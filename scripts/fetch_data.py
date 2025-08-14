@@ -1,13 +1,21 @@
+"""
+fetch_data.py
+Simple script to download stock data for analysis
+Place this in: stock_analysis/scripts/fetch_data.py
+"""
+
 import yfinance as yf
-import os 
+import os
 
 def fetch_stock_data():
-    '''Fetches stock data for selected companies and saves it to a CSV file.'''
-    #selected companies
-    stocks = ['GOOGL','JPM','PFE','AMZN','XOM']
+    """Download 2 years of data for our 5 selected stocks"""
+    
+    # Your selected companies
+    stocks = ['GOOGL', 'JPM', 'PFE', 'AMZN', 'XOM']
+    
     # Create data folder if it doesn't exist
-    if not os.path.exists('../data'):
-        os.makedirs('../data')
+    if not os.path.exists('data'):
+        os.makedirs('data')
         print("Created data folder")
     
     print("Fetching stock data...")
@@ -22,7 +30,7 @@ def fetch_stock_data():
             data = ticker.history(period="2y")
             
             # Save to CSV
-            filename = f"../data/{symbol}.csv"
+            filename = f"data/{symbol}.csv"
             data.to_csv(filename)
             
             print(f"  ✅ Saved {len(data)} days to {filename}")
