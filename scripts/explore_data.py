@@ -46,5 +46,9 @@ def explore_stock_data(symbol):
         return None
 
 if __name__ == "__main__":
-    # Explore Google data first
-    google_data = explore_stock_data('GOOGL')
+    # All your stocks
+    stocks = ['GOOGL', 'JPM', 'PFE', 'AMZN', 'XOM']
+    
+    for stock in stocks:
+        explore_stock_data(stock)
+        print("\n" + "="*50 + "\n")
