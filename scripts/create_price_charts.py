@@ -24,7 +24,7 @@ def create_price_comparison():
     plt.xlabel("Date", fontsize=14)
     plt.ylabel("Price (USD)", fontsize=14)
     plt.legend(fontsize=10)
-    plt.grid(True, aplha=0.3)
+    plt.grid(True, alpha=0.3)
     plt.tight_layout()
 
     #Save the chart 
@@ -34,5 +34,5 @@ def create_price_comparison():
 
 if __name__ == "__main__":
     create_price_comparison()
-    
+
     
