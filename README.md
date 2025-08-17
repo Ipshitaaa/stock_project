@@ -2,10 +2,6 @@
 
 > **A data-driven approach to analyzing stock performance and building algorithmic trading strategies**
 
-![Python](https://img.shields.io/badge/python-v3.9+-blue.svg)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
 ## 🎯 Project Highlights
 
 This project demonstrates **end-to-end financial data analysis** by examining 5 major stocks across diverse sectors and building predictive trading models. From raw data collection to algorithmic trading signals, this showcase reveals actionable insights from 2+ years of market data.
