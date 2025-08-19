@@ -32,6 +32,7 @@ This project demonstrates **end-to-end financial data analysis** by examining 5 
 - ⚡ **Biggest Decline**: **PFE** (-25% return) - Post-pandemic healthcare adjustment
 
 **Correlation Insights**:
+![Correlation Heatmap](visuals/correlation_heatmap.png)
 - 🔗 **Strongest Correlation**: **GOOGL-AMZN** (0.60) - Tech giants move together
 - 💰 **Finance-Tech Link**: **JPM-GOOGL** (0.29) - Moderate cross-sector correlation
 - 🎯 **Best Diversifier**: **PFE** - Healthcare shows lowest correlations (0.05-0.21)
@@ -52,6 +53,7 @@ This project demonstrates **end-to-end financial data analysis** by examining 5 
   - **AMZN**: MA strategy ~40% vs Buy-Hold ~65% (protected downside in 2025)
   - **GOOGL**: MA strategy ~40% vs Buy-Hold ~55% (reduced volatility)
   - **JPM**: MA strategy ~50% vs Buy-Hold ~95% (missed major uptrend)
+  
   - **PFE**: MA strategy avoided worst losses (-13% vs -25%)
   - **XOM**: MA strategy captured cyclical moves effectively
 
