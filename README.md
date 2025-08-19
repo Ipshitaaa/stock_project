@@ -24,6 +24,7 @@ This project demonstrates **end-to-end financial data analysis** by examining 5 
 ### 📊 Key Findings
 
 **Performance Leaders** (2-Year Cumulative Returns):
+![Performance Comparison](visuals/performance_chart.png)
 - 🥇 **Best Performer**: **JPM** (~95% return) - Outstanding financial sector performance
 - 🥈 **Second Place**: **GOOGL** (~55% return) - Strong tech recovery
 - 🥉 **Third Place**: **AMZN** (~65% return) - Solid e-commerce/cloud growth
