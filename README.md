@@ -53,9 +53,11 @@ This project demonstrates **end-to-end financial data analysis** by examining 5 
   - **AMZN**: MA strategy ~40% vs Buy-Hold ~65% (protected downside in 2025)
   - **GOOGL**: MA strategy ~40% vs Buy-Hold ~55% (reduced volatility)
   - **JPM**: MA strategy ~50% vs Buy-Hold ~95% (missed major uptrend)
-  
   - **PFE**: MA strategy avoided worst losses (-13% vs -25%)
   - **XOM**: MA strategy captured cyclical moves effectively
+  
+![JPM Moving Average Strategy](visuals/JPM_moving_average_strategy.png)
+*Example :- JPM Moving Average Strategy*
 
 **Strategy Effectiveness Analysis**:
 - 🛡️ **Risk Reduction**: Successfully avoided major drawdowns in volatile periods
